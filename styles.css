@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #040D1A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D60BF40;
+    border-radius: 12px;
+    border: solid 1px #1D60BF80;
+    width: 1366px;
+    margin: 8px auto;
+    padding: 0px 32px;
+    overflow: hidden;
+}
+
+nav h1 {
+    color: #fff;
+    font-style: italic;
+    font-family: monospace;
+}
+
+nav div {
+    width: 510px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: transparent;
+    color: #ffffffbf;
+    border: 1px solid #ffffff00;
+    font-size: 14px;
+    padding: 20px 0px;
+    width: 85px;
+    font-family: montserrat;
+}
+
+button:hover {
+    background: linear-gradient(0deg, #1D60BF80, #1D60BF00);
+    color: #fff;
+    border-bottom: 1px solid;
+    border-top: none;
+}
+
+.pantalla {
+    color: #fff
+}
+
+.c-lista-producto {
+  background-color: #1D60BF20;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.c-lista-producto:hover {
+  background-color: #1D60BF60;
+}
