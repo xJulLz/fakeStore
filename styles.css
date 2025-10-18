@@ -12,9 +12,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1D60BF40;
+    background-color: #bf1d1d40;
     border-radius: 12px;
-    border: solid 1px #1D60BF80;
+    border: solid 1px #bf1d1d80;
     width: 100%;
     max-width: 1366px;
     margin: 8px auto;
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(0deg, #1D60BF80, #1D60BF00);
+    background: linear-gradient(0deg, #bf1d1d80, #bf431d00);
     color: #fff;
     border-bottom: 1px solid;
     border-top: none;
@@ -74,7 +74,7 @@ div#root {
 }
 
 .c-lista-producto {
-  background-color: #1D60BF20;
+  background-color: #bf1d1d20;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
@@ -85,5 +85,5 @@ div#root {
 }
 
 .c-lista-producto:hover {
-  background-color: #1D60BF60;
+  background-color: #bf1d1d60;
 }
