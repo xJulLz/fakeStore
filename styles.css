@@ -15,7 +15,8 @@ nav {
     background-color: #1D60BF40;
     border-radius: 12px;
     border: solid 1px #1D60BF80;
-    width: 1366px;
+    width: 100%;
+    max-width: 1366px;
     margin: 8px auto;
     padding: 0px 32px;
     overflow: hidden;
