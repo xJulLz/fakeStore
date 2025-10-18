@@ -51,8 +51,26 @@ button:hover {
     border-top: none;
 }
 
+div#root {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.categorias-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .pantalla {
     color: #fff
+}
+
+.c-buscador {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
 }
 
 .c-lista-producto {
